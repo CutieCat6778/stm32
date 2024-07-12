@@ -12,17 +12,18 @@ monitor arm semihosting enable
 
 load
 
-# Set a breakpoint at main, aka entry
+set print asm-demangle on
+
+set print pretty on
+
+set style sources off
+
 break main
 
-# Set a breakpiont at DefaultHandler
 break DefaultHandler
 
-# Set a breakpiont at HardFault
 break HardFault
 
-# Continue running and until we hit the main breakpoint
 continue
 
-# Step from the trampoline code in entry into main
 step

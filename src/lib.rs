@@ -2,18 +2,21 @@
 
 #![no_std]
 
-pub use panic_itm;
+#[allow(unused_extern_crates)] // NOTE(allow) bug rust-lang/rust#53964
+extern crate panic_halt; // panic handler
 
+pub use cortex_m::asm::bkpt;
 pub use cortex_m_rt::entry;
+pub use f3::hal::stm32f30x::{gpioc, rcc};
+pub use cortex_m_semihosting::hprintln;
 
-// Need stm32f3xx_hal::prelude::* otherwise
-//   'Error(corex-m-rt): The interrupt vectors are missing`
-pub use stm32f3_discovery::stm32f3xx_hal::prelude::*;
+use f3::hal::stm32f30x::{self,GPIOD, RCC};
 
-pub use cortex_m::{asm::bkpt, iprint, iprintln, peripheral::ITM};
 
-pub fn init() -> ITM {
-    let p = cortex_m::Peripherals::take().unwrap();
+pub fn init() -> (&'static gpioc::RegisterBlock, &'static rcc::RegisterBlock) {
+    // restrict access to the other peripherals
+    (stm32f30x::Peripherals::take().unwrap());
 
-    p.ITM
+    unsafe { (&*GPIOD::ptr(), &*RCC::ptr()) }
 }
+

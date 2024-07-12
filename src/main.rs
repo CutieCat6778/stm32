@@ -1,30 +1,25 @@
+#![deny(unsafe_code)]
 #![no_main]
 #![no_std]
 
 #[allow(unused_imports)]
-
-use stm32::{entry, iprint, iprintln};
+use stm32::{entry, hprintln};
 
 #[entry]
 fn main() -> ! {
-    stm32::init();
+    let (gpioe, rcc) = stm32::init();
 
-    unsafe {
-        // A magic address!
-        const GPIOE_BSRR: u32 = 0x48001018;
+    // enable the GPIOE peripheral
+    rcc.ahbenr.write(|w| w.iopeen().set_bit());
 
-        // Turn on the "North" LED (red)
-        *(GPIOE_BSRR as *mut u32) = 1 << 9;
+    // configure the pins as outputs
+    gpioe.moder.write(|w| w.moder4().output());
 
-        // Turn on the "East" LED (green)
-        *(GPIOE_BSRR as *mut u32) = 1 << 11;
+    // Turn on all the LEDs in the compass
+    gpioe.odr.write(|w| w.odr4().set_bit());
 
-        // Turn off the "North" LED
-        *(GPIOE_BSRR as *mut u32) = 1 << (9 + 16);
+    stm32::bkpt();
 
-        // Turn off the "East" LED
-        *(GPIOE_BSRR as *mut u32) = 1 << (11 + 16);
+    loop {
     }
-
-    loop {}
 }
