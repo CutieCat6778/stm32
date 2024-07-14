@@ -1,0 +1,8 @@
+{
+    "C_Cpp.errorSquiggles": "disabled",
+    "files.associations": {
+        "stm32f3xx_hal_gpio.h": "c",
+        "led_controller.h": "c",
+        "stdlib.h": "c"
+    }
+}
