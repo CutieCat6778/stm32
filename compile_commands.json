@@ -1,0 +1,112 @@
+[
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Core/Src/main.c.obj -c /media/thinh/Developer/stm32/Core/Src/main.c",
+  "file": "/media/thinh/Developer/stm32/Core/Src/main.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Core/Src/stm32f3xx_it.c.obj -c /media/thinh/Developer/stm32/Core/Src/stm32f3xx_it.c",
+  "file": "/media/thinh/Developer/stm32/Core/Src/stm32f3xx_it.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Core/Src/stm32f3xx_hal_msp.c.obj -c /media/thinh/Developer/stm32/Core/Src/stm32f3xx_hal_msp.c",
+  "file": "/media/thinh/Developer/stm32/Core/Src/stm32f3xx_hal_msp.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_tim_ex.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_rcc_ex.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_gpio.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_dma.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_cortex.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_pwr_ex.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_flash_ex.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_i2c_ex.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c.obj -c /media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c",
+  "file": "/media/thinh/Developer/stm32/Drivers/STM32F3xx_HAL_Driver/Src/stm32f3xx_hal_exti.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Core/Src/system_stm32f3xx.c.obj -c /media/thinh/Developer/stm32/Core/Src/system_stm32f3xx.c",
+  "file": "/media/thinh/Developer/stm32/Core/Src/system_stm32f3xx.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Core/Src/sysmem.c.obj -c /media/thinh/Developer/stm32/Core/Src/sysmem.c",
+  "file": "/media/thinh/Developer/stm32/Core/Src/sysmem.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -g -std=gnu11 -o CMakeFiles/stm32.dir/Core/Src/syscalls.c.obj -c /media/thinh/Developer/stm32/Core/Src/syscalls.c",
+  "file": "/media/thinh/Developer/stm32/Core/Src/syscalls.c"
+},
+{
+  "directory": "/media/thinh/Developer/stm32",
+  "command": "/usr/bin/arm-none-eabi-gcc -DDEBUG -DSTM32F303xC -DUSE_HAL_DRIVER -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Core/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/STM32F3xx_HAL_Driver/Inc/Legacy -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Device/ST/STM32F3xx/Include -I/media/thinh/Developer/stm32/cmake/stm32cubemx/../../Drivers/CMSIS/Include  -mcpu=cortex-m4 -mfpu=fpv4-sp-d16 -mfloat-abi=hard  -Wall -Wextra -Wpedantic -fdata-sections -ffunction-sections -O0 -g3 -x assembler-with-cpp -MMD -MP -g -o CMakeFiles/stm32.dir/startup_stm32f303xc.s.obj -c /media/thinh/Developer/stm32/startup_stm32f303xc.s",
+  "file": "/media/thinh/Developer/stm32/startup_stm32f303xc.s"
+}
+]

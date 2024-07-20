@@ -1,0 +1,25 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceRoot}/Core/Inc",
+                "${workspaceRoot}/Drivers/STM32F3xx_HAL_Driver/Inc",
+                "${workspaceRoot}/Drivers/CMSIS/Include",
+                "${workspaceRoot}/Drivers/CMSIS/Device/ST/STM32F3xx/Include",
+                "${workspaceRoot}/Drivers/BSP/",
+                "${workspaceRoot}/Drivers/BSP/STM32F3-Discovery",
+                "${workspaceRoot}/Drivers/BSP/Components/Common/",
+                "${workspaceRoot}/Drivers/BSP/Components/l3gd20/"
+            ],
+            "defines": [],
+            "compilerPath": "/usr/bin/gcc",
+            "cStandard": "c17",
+            "cppStandard": "gnu++17",
+            "intelliSenseMode": "linux-gcc-x64",
+            "configurationProvider": "ms-vscode.cmake-tools"
+        }
+    ],
+    "version": 4
+}
